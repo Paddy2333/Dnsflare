@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const AxiosClient = axios.create({
-    baseURL: '/api',
+    baseURL: 'https://api.paddy.eu.org/client/v4',
     timeout: 15000,
 })
 
